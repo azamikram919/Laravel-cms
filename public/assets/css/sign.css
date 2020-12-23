@@ -1,0 +1,46 @@
+body{
+    background: #eeeeee;
+}
+
+.form-control{
+    min-height: 41px;
+    box-shadow: none;
+    border-color: #3D7C93;
+}
+.form-control.btn{
+    border-radius: 3px;
+}
+
+
+.font{
+    background: #3D7C93;
+    border-radius: 5px;
+    padding: 15px 8px 1px 12px;
+}
+
+.form-header{
+    background: #3D7C93;
+    border-radius: 5px;
+    padding: 13px 8px 1px 12px;
+}
+
+form{
+    background: silver;
+    border-radius: 5px;
+    padding: 25px 10px 5px 10px;
+}
+
+form label{
+    color: #515151;
+}
+.signup-form input[type="checkbox"]{
+    margin-top: 10px;
+}
+.signup-form .form-group span{
+    margin-left: 8px;
+}
+
+.btn{
+    background: #3D7C93;
+    color: #fff;
+}

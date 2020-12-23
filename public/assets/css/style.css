@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #eee;
+}
+
+.navbar-brand img{
+    margin-top: -5px;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.text-decoration {
+    text-decoration: none;
+}
+
+.color-white {
+    color: #9c9c9c;
+}
+
+.change-color:hover {
+    color: #fff;
+}
+
+.jumbotron {
+    height: 200px;
+    overflow: hidden;
+}
+
+.font-size {
+    font-size: 63px;
+}
+
+.jumbotron span {
+    color: #24A7CF;
+}
+
+.jumbotron #details {
+    position: absolute;
+    color: white;
+}
+
+.post {
+    background: #fff;
+}
+
+.color-teal {
+    color: #24A7CF;
+}
+
+.post-date {
+    border-right: 1px solid #b0b0b0;
+}
+
+.post-data {
+    border-bottom: 1px solid #b0b0b0;
+}
+
+.background {
+    background: black;
+}
+
+.background p {
+    font-size: 17px;
+    color: white;
+}
+
+.background span {
+    color: #24A7CF;
+}
+
+.popular {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #e3e3e3;
+}
+
+.post .bottom {
+    color: #C6C6C6;
+    padding: 10px;
+    border-top: 1px solid #e3e3e3;
+}
+
+.post .bottom .first {
+    margin-right: 10px;
+}
+
+.post .bottom .sec {
+    margin-left: 10px;
+}
+
+.contact-from {
+    background: white;
+    padding: 25px 25px;
+    border-radius: 5px;
+}
+
+.contact-from h2 {
+    color: #24A7CF;
+}
