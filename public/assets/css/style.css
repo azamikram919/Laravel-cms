@@ -9,8 +9,12 @@ body {
     background: #eee;
 }
 
-.navbar-brand img{
+.navbar-brand img {
     margin-top: -5px;
+}
+
+.bg-color {
+    background: #1AA7CF;
 }
 
 .font-bold {
@@ -21,12 +25,28 @@ body {
     text-decoration: none;
 }
 
+.text-underline {
+    text-underline: none;
+}
+
+.color-black {
+    color: #303030;
+}
+
+.color-silver {
+    color: #6c757d;
+}
+
 .color-white {
     color: #9c9c9c;
 }
 
 .change-color:hover {
     color: #fff;
+}
+
+.home {
+    /*text-anchor: none;*/
 }
 
 .jumbotron {
@@ -105,4 +125,123 @@ body {
 
 .contact-from h2 {
     color: #24A7CF;
+}
+
+/********admin area css start*******/
+.badge {
+    padding-left: 50px;
+}
+
+.badge span {
+    background: #24A7CF;
+    padding: 2px 4px 2px 2px;
+    border-radius: 10px;
+}
+
+.huge {
+    font-size: 20px;
+}
+
+.panel-info {
+    color: white;
+    background: #003369;
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #003369;
+}
+
+.breadcrumb {
+    background: #dadada;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.huge {
+    font-size: 40px;
+}
+
+.tag-box-1 {
+    border: 1px solid #17A2B8;
+    border-radius: 5px;
+}
+
+.tag-box-2 {
+    border: 1px solid #DC3545;
+    border-radius: 5px;
+}
+
+.tag-box-3 {
+    border: 1px solid #FFC107;
+    border-radius: 5px;
+}
+
+#wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+.body-section {
+    padding-bottom: 70px;
+}
+
+.separator {
+    margin: 3rem 0;
+    border-bottom: 1px dashed #fff;
+}
+
+.text-uppercase {
+    letter-spacing: 0.1em;
+}
+
+.text-gray {
+    color: #aaa;
+}
+
+.vertical-nav {
+    min-width: 17rem;
+    width: 17rem;
+    height: 100vh;
+    /*position: fixed;*/
+    top: 0;
+    margin-left: -15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+}
+
+.page-content {
+    width: calc(100% - 17rem);
+    /*margin-left: 17rem;*/
+    transition: all 0.4s;
+}
+
+/* for toggle behavior */
+
+#sidebar.active {
+    margin-left: -18rem;
+}
+
+#content.active {
+    width: 100%;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -17rem;
+    }
+
+    #sidebar.active {
+        margin-left: 0;
+    }
+
+    #content {
+        width: 100%;
+        margin: 0;
+    }
+
+    #content.active {
+        margin-left: 17rem;
+        width: calc(100% - 17rem);
+    }
 }

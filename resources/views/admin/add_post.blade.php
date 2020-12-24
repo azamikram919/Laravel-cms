@@ -34,8 +34,7 @@
                 <!-----col 3 start----->
                 <div class="col-md-3">
                     <!-- Vertical navbar -->
-                    <div class="vertical-nav bg-dark" id="sidebar"
-                         style="position: fixed; overflow: hidden; padding-top: 5%">
+                    <div class="vertical-nav bg-dark" id="sidebar" style="position: fixed; overflow: hidden; padding-top: 5%">
                         <div class="row">
                             <div class="col-md-2"></div>
                             <div class="col-md-10">
@@ -115,8 +114,8 @@
 
                     <h1>
                         <i class="far fa-file-alt"></i>
-                        Posts /
-                        <small class="text-secondary">View All Posts</small>
+                        Add Post
+                        <small>Add New Post</small>
                     </h1>
                     <hr>
                     <ol class="breadcrumb">
@@ -124,12 +123,35 @@
                             <a href="#" class="text-info">
                                 <i class="fas fa-tachometer-alt"></i>
                                 Dashboard</a>
-                            / <i class="far fa-file-alt text-secondary"></i>
-                            <span class="text-secondary">Posts</span>
+                            / <i class="fas fa-sliders-h text-secondary"></i>
+                            <span class="text-secondary">Add Post</span>
                         </li>
                     </ol>
-
-                    <input type="submit" class="btn btn-primary" value="Add Post">
+                    <hr>
+                    <div class="col-lg-12 col-md-12">
+                        <form action="" method="" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label for="title">Title:</label>
+                                <input type="text" value="" name="title" placeholder="Type Post Title Here"
+                                       class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="post-data" id="textarea" rows="16"
+                                          class="form-control tinymce">
+                                </textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="file">Post Image:</label>
+                                <input type="file" name="image" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="categories">Categories:</label>
+                                <select class="form-control" name="categories">
+                                    <option value="Laptops">Laptops</option><option value="Books">Books</option><option value="MObiles">MObiles</option>                                        </select>
+                            </div>
+                            <input type="submit" name="submit" value="Add Post" class="btn btn-primary">
+                        </form>
+                    </div>
                 </div>
                 <!-------col 9 end------->
             </div>

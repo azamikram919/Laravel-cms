@@ -1,6 +1,25 @@
 @extends('layouts.app')
 @section('title', 'Blog Post')
 @section('content')
+    <nav class="navbar navbar-light bg-dark sticky-top">
+        <div class="container">
+            <a href="" class="navbar-brand text-light">
+                <img src="{{asset('public/images/author.png')}}" class="img-responsive img-fluid" width="35px" alt="">
+                <span class="navbar-link">Navbar</span>
+            </a>
+            <div class="navbar-items d-flex">
+                <a href="" class="home pl-3 text-decoration color-white change-color"><i class="fa fa-home"></i> Home</a>
+                <a href="#" class="contact pl-3 text-decoration color-white change-color"><i class="fa fa-phone"></i>
+                    Contact Us</a>
+                <a href="#" class="categories pl-3 text-decoration color-white change-color"><i class="fa fa-list-alt"></i>
+                    Categories</a>
+                <a href="#" class="add-post pl-3 text-decoration color-white change-color"><i class="fa fa-plus-square"></i>
+                    Add Post</a>
+                <a href="#" class="logout pl-3 text-decoration color-white change-color"><i class="fa fa-user"></i>
+                    LogOut</a>
+            </div>
+        </div>
+    </nav>
 
     <div class="jumbotron">
         <div class="container">
@@ -184,4 +203,12 @@
         </div>
     </div>
 
+    <br><br>
+    <footer>
+        <div class="background">
+            <div class="container p-1 pt-4">
+                <p>Copyright @ by <span>Azamikram919</span>. All Reserved From 2018. 2020</p>
+            </div>
+        </div>
+    </footer>
 @endsection

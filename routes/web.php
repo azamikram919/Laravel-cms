@@ -34,3 +34,19 @@ Route::get('signup', function () {
 Route::get('signin', function () {
     return view('signin');
 });
+
+Route::get('admin/index', function () {
+    return view('admin/index');
+});
+Route::get('admin/posts', function () {
+    return view('admin/posts');
+});
+Route::get('admin/add_slider', function () {
+    return view('admin/add_slider');
+});
+Route::get('admin/add_post', function () {
+    return view('admin/add_post');
+});
+Route::get('admin/add_user', function () {
+    return view('admin/add_user');
+});
